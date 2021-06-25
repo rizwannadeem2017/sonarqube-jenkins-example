@@ -1,5 +1,12 @@
 pipeline {
     agent any
+    environment {
+        
+        DOCKER_IMAGE_NAME = "rizwan1989/riz-tomcat"
+        registry = "registry.hub.docker.com/rizwan1989/riz-tomcat"
+        
+       
+    }
 
     stages {
          stage('clone code from git') {
