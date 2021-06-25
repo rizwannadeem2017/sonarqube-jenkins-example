@@ -8,7 +8,7 @@ plugins {
 group 'com.tomgregory'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 11
+sourceCompatibility = 8
 
 repositories {
     mavenCentral()
@@ -20,7 +20,7 @@ dependencies {
 
 sonarqube {
     properties {
-        property 'sonar.host.url', 'http://localhost:9000'
+        property 'sonar.host.url', 'http://localhost:31590'
     }
 }
 
