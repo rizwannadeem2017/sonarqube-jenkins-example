@@ -20,7 +20,7 @@ dependencies {
 
 sonarqube {
     properties {
-        property 'sonar.host.url', 'http://10.4.41.129:31590'
+        property 'sonar.host.url', 'http://10.4.40.212:31590'
     }
 }
 
